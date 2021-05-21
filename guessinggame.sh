@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 # File: guessinggame.sh
 
+rm ./readme.md
 
 response=0
 function FileNum {
@@ -33,5 +34,7 @@ if [[ $response -eq $y ]]
 else echo "error"
 fi
 
-rm /home/deeb/Unix/Guessinggame/readme.md
 make readme.md
+
+
+
